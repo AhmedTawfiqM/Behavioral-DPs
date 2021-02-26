@@ -21,4 +21,6 @@ public class Client {
             iterator.next();
         }
     }
+
+    //https://refactoring.guru/design-patterns/iterator/java/example
 }
