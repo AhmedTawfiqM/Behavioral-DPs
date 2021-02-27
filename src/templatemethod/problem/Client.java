@@ -5,6 +5,8 @@ public class Client {
     //Two different components have significant similarities, but demonstrate no reuse of common interface or implementation.
     // If a change common to both components becomes necessary, duplicate effort must be expended.
 
+    //2 problems - Duplication - Finite state Machine (Conditional)
+
     public static void main(String[] args) {
 
         ItalianCreep italianCreep = new ItalianCreep();

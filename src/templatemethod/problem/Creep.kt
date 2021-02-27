@@ -4,6 +4,7 @@ class Creep {
 
     var type = ""
 
+    //hooks
     fun makeSandwich(isAddMeat: Boolean, isAddCheese: Boolean, isAddVegetables: Boolean, isAddCondiments: Boolean,type: String) {
 
         cutBun()
