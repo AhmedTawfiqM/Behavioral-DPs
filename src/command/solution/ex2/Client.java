@@ -18,4 +18,7 @@ public class Client {
         button = new Button(tvDown);
         button.click();
     }
+
+    //https://www.youtube.com/watch?v=7Pj5kAhVBlg
+    //https://refactoring.guru/design-patterns/command
 }

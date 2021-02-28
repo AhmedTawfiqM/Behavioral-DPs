@@ -1,5 +1,5 @@
 package command.solution
 
-interface Command {
+interface ICommand {
     fun execute()
 }

@@ -1,10 +1,9 @@
 package command.solution.ex2
 
-import command.solution.Command
+import command.solution.ICommand
 import command.solution.ex2.base.ElectronicService
-import command.solution.ex2.base.Television
 
-class TvDown(private val electronicService: ElectronicService) : Command {
+class TvDown(private val electronicService: ElectronicService) : ICommand {
 
     override fun execute() {
         electronicService.volumeUp()

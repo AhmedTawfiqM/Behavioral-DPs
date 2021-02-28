@@ -1,9 +1,9 @@
 package command.solution
 
 
-class Button(private val command: Command) {
+class Button(private val ICommand: ICommand) {
 
     fun click(){
-        command.execute()
+        ICommand.execute()
     }
 }
