@@ -1,7 +1,10 @@
 package observer.solution.gof_book
 
-class DaysAttend : Observer {
+
+//todo best practice inject data Source object here rather than Data parameter
+class DaysAttend : IObserver<Data> {
+
     override fun onChanged(data: Data) {
-        println("DaysAttend $data")
+        println("notified DaysAttend $data")
     }
 }

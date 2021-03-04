@@ -1,8 +1,10 @@
 package observer.solution.gof_book
 
-class TotalDegree : Observer {
+
+//todo best practice inject data Source object here rather than Data parameter
+class TotalDegree : IObserver<Data> {
 
     override fun onChanged(data: Data) {
-        println("TotalDegree $data")
+        println("notified TotalDegree $data")
     }
 }
