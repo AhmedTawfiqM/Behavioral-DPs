@@ -14,6 +14,7 @@ class InterpreterClient(private val interpreterContext: InterpreterContext) {
             }
             else -> return str
         }
+
         return exp.interpret(interpreterContext)
     }
 }
